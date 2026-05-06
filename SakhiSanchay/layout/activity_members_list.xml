@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F2F5">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group Members"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:background="#FFFFFF"
+        android:textColor="#1565C0"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMembersList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>
